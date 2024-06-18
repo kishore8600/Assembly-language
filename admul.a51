@@ -1,0 +1,10 @@
+ORG 0000H
+	CLR C
+	MOV A, 33H
+	MOV B, 34H
+	MUL AB
+	MOV 36H,A
+	MOV 35H,B
+	END
+	
+	
